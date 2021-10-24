@@ -6,7 +6,7 @@ const shortid = require('shortid');
 
 try {
   var startTime = Date.now();
-  console.log("📖    Create (Scrapbook) Entries v1.0.0\n");
+  console.log("📖    Create (Storybook) Entries v1.0.0\n");
 
   console.log("🔍    Reading templates...");
   const gridTemplate = yaml.safeLoad(fs.readFileSync(path.join(__dirname, 'templates/grid-template.html'), 'utf8'));

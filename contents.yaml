@@ -1,22 +1,26 @@
-firstName: Mian # Write your first name here
+firstname: dprincecoder # Write your first name here
 entries: # Scrapbook entries under here (2-space indent)
-  - title: succulents 
+  - title: succulents
     note: A bunch of beautiful plants at a small shop in Cagayan de Oro, 🇵🇭 # Optional: specify a note
     src: images/succulents.png
-  - title: cat 
-    note: I have a cute cat that looks just like this one!
+  - title: cat
+    note: I have a cute cat that looks just like this one, cats are one of the beautiful kiten ever!
     src: images/cool-cat-sticker-creation.png
   - title: new york city
-    note: Some windows that I saw in the city!
+    note: A peek at the windows of new york city!
     src: images/windows.jpg
   - title: coffee
     note: You can never go wrong with an iced hazelnut coffee 😋
     src: images/nathan-dumlao-tZ9-0iAmmX0-unsplash.jpg
-  - title: random photo
-    note: This is a random photo from Unsplash ✨
+  - title: Beautiful peek into the woods
+    note: Wondered how the woods looks in the nights, take a journey today into the woods to explore with your loved one ✨
     src: https://source.unsplash.com/random/
   - title: t-shirts
     note: Some of our shirts from our second year. SLO Hacks collected and donated over 150 t-shirts to Goodwill.
     src: images/slo-hacks-shirts.jpg
-  - title: featured photo
+  - title: Moment of thought
+    note: They say if you want to go far, go with many people and in crowd but if you want to go fast go alone.
     src: https://source.unsplash.com/featured/daily
+  - title: Privacy Policy
+    note: We use the information that we have temporary subject to choices you make as described below, and to provide and support the Storybook Products and related services described in the Storybook Terms Terms. we take it and Provide, personalise and improve our Products. We use the information we have to deliver our Products, including to personalise features and content including your News Feed, Stories and ads and make suggestions for you such as groups or events you may be interested in or topics you may want to follow on and off our Products. To create personalised Products that are unique and relevant to you, we use your connections, preferences, interests and activities based on the data that we collect and learn from you and other including any data with special protections you choose to provide how you use and interact with our Products; and the people, places or things that you're connected to and interested in on and off our Products. Learn more about how we use information about you to personalise your Storybook experience, including features, content and recommendations in Storybook Products; you can also learn more about how we choose the ads that you see.
+    src: images/privacy-policy.jpeg
