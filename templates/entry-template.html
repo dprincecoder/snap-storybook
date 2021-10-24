@@ -4,6 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:site_name" content="{{firstName}}'s Storybook">
+    <meta property="og:title" content="Storybook">
      <meta property="snap:app_id" content="YOUR_APP_ID_HERE" />
 		<title>{{title}} | {{firstName}}'s Scrapbook</title>
 		<link
@@ -21,9 +23,9 @@
 			<h2 class="scrap-title">{{title}}</h2>
 			<!--  Place your Creative Kit for Web share button here -->
 			<!-- <div class="snapchat-creative-kit-share share-button"></div> -->
-			class="snapchat-creative-kit-share share-button" data-theme="dark"
+			<div class="snapchat-creative-kit-share share-button" data-theme="dark"
 			data-size="large" data-text="false"
-			data-share-url="https://dprincecoder.github.io/snap-storybook/index.html"
+			data-share-url="https://dprincecoder.github.io/snap-storybook/index.html"></div>
 		</header>
 		<main class="detail">
 			<img
@@ -52,5 +54,13 @@
 				sjs.parentNode.insertBefore(js, sjs);
 			})(document, "script", "snapkit-creative-kit-sdk");
 		</script>
+    
+    <script>
+  window.snapKitInit = function () {
+    snap.creativekit.initalizeShareButtons(
+      document.getElementsByClassName('snapchat-share-button')
+    );
+  };
+</script>
 	</body>
 </html>
